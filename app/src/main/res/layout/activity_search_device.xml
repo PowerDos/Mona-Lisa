@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="点击设备将会自动连接该设备"/>
+    <TextView
+        android:id="@+id/search_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_searching"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+    <ListView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:id="@android:id/list"
+        android:layout_marginTop="15dp"
+        android:text="没有发现任何设备"/>
+
+</LinearLayout>

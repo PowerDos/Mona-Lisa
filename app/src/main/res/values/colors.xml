@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--按钮颜色开始-->
+    <color name="btn_primary_normal">#337AB7</color>
+    <color name="btn_primary_pressed">#1E496E</color>
+    <color name="btn_warning_normal">#F0AD4E</color>
+    <color name="btn_warning_pressed">#D58512</color>
+    <!--按钮颜色结束-->
+</resources>
